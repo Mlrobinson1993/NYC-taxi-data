@@ -1,0 +1,21 @@
+.trip-data-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.chart-container {
+  background: #fff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+}
+
+@media (max-width: 600px) {
+  .chart-container {
+    min-height: 200px;
+  }
+}
