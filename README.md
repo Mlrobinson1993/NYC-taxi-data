@@ -39,4 +39,4 @@ This project visualizes NYC Taxi data using various charts.
 
 ## Notes
 
-Ensure that the BigQuery dataset is accessible with your service account and that the required tables exist in the dataset.
+Ensure that the BigQuery dataset is accessible with your service account.
